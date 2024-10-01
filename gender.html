@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Detection</title>
+    <link rel="stylesheet" href="gender.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gender Detection</h1>
+        <input type="file" id="imageUpload" accept="image/*">
+        <div id="imagePreview">
+            <img id="uploadedImage"/>
+        </div>
+        <button id="detectButton">Detect Gender</button>
+        <div id="result"></div>
+        <input type="hidden" id="imageBase64">
+    </div>
+    <script src="gender.js"></script>
+</body>
+</html>
