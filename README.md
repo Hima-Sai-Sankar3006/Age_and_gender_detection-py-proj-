@@ -1,1 +1,1 @@
-This projecect is about age and sex detection using html and css
+This project is about age and sex detection using html ,css and javascript
